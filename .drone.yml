@@ -7,7 +7,7 @@ environment:
 image_pull_secrets:
 - dockerconfigjson
 kind: pipeline
-name: pr-verify-drone
+name: pr-verify-drone 
 node:
   type: no-parallel
 platform:
